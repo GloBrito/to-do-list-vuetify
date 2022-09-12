@@ -1,4 +1,10 @@
 <template>
-  <div></div>
+  <div>
+    <h1>Aqui será a Página de Login</h1>
+  </div>
 </template>
-<script></script>
+<script>
+export default {
+  name: "LoginView",
+};
+</script>
