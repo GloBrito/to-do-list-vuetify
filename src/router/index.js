@@ -20,6 +20,8 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+
+  // Recebe o export da página de login (LoginView.vue)
   {
     path: "/login",
     name: "login",
